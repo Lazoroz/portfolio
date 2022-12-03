@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Libre+Baskerville:wght@400;700&family=Noto+Sans+KR:wght@100&family=Quattrocento&display=swap');
+
+body{
+  margin:0;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: -1;
+  background-color: black;
+}
+
+h1 {
+  font-size: 35px;
+  color: black;
+}
+nav{
+  top: 0;
+  height: 5%;
+  width: 100%;
+  position: fixed;
+  background-color: azure;
+}
+footer{
+  bottom: 0;
+  height: 7%;
+  width: 100%;
+  position: fixed;
+  background-color: azure;
+}
+
+p {
+  color: #fff;
+}
+
+figcaption{
+  color: #fff;
+}
+
+.sec1{
+  padding-left: 10%;
+  margin-top: 45vh;
+}
